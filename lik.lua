@@ -533,7 +533,7 @@ function library:InitNotifications(text, duration, callback)
         local notifText = Instance.new("TextLabel")
         local notifPadding = Instance.new("UIPadding")
         local backgroundLayout = Instance.new("UIListLayout")
-    
+    --hash
         edge.Name = "edge"
         edge.Parent = Notifications
         edge.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -785,7 +785,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "hash"
+    text.Text = "UI by bungie#0001"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
